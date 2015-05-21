@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title><?php echo($config['name'] . ' - ' . $config['title']) ?></title>
-	<meta name="keywords" content="<?php echo($config['name'] . ',' . $config['val']) ?>,ponzi,pyramid scheme,pyramid,cryptocoin,bitcoin">
+	<meta name="keywords" content="<?php echo($config['name'] . ',' . $config['val']) ?>,ponzi,pyramid scheme,pyramid,cryptocoin,virtacoin">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="assets/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/style.css">
