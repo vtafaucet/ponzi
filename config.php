@@ -13,27 +13,27 @@
 		'login' => 'RPC_login',
 		'password' => 'RPC_password',
 		'ip' => '127.0.0.1',
-		'port' => '8332'
+		'port' => '22815'
 	);
 	
 	$config = array(
-		'name' => 'BitPonzi',																	// Name of your ponzi
+		'name' => 'VirtaPonzi',																	// Name of your ponzi
 		'title' => 'get rich!',																// Description
-		'full-name' => 'Bitcoin Ponzi',												// Full name of your ponzi
-		'val' => 'BTC',																				// Cryptocurrency abbreviation
+		'full-name' => 'Virtacoin Ponzi',												// Full name of your ponzi
+		'val' => 'VTA',																				// Cryptocurrency abbreviation
 		'precision' => 4,
 		'confirmations' => 1,																	// Minimum number of confirmations to add transaction
-		'min' => 0.001,																				// Minimum pay in
-		'max' => 0.25,																				// Maximum pay in
-		'income' => 0.1,																			// How much money to send - default: 0.1 - 110%
-		'fee' => 0.01,																				// Fee taken from pay in amount
+		'min' => 1,																				// Minimum pay in
+		'max' => 500000,																				// Maximum pay in
+		'income' => 50000,																			// How much money to send - default: 0.1 - 110%
+		'fee' => 0.1,																				// Fee taken from pay in amount
 		'payout-check' => 180,																// Time between payouts
-		'ownaddress' => '1MSkXPRK293dDMD5ds6KqVtyDadDkRyanX', // Your address
+		'ownaddress' => '1LZqBFbGEKmKJfwirGnEpD6VvH9eAYtyKf', // Your address
 		'sendback' => false,																	// What to do with txs that are over maximum or under minimum | true - send back, false - send to your address
-		'ponziacc' => 'btc',																	// Name of daemon account
-		'address' => '1ponzisApJfHtgrwP7CrpfEgseBmPcRD4',			// Ponzi address
+		'ponziacc' => 'vta',																	// Name of daemon account
+		'address' => '1LZqBFbGEKmKJfwirGnEpD6VvH9eAYtyKf',			// Ponzi address
 		'privkey' => '',																			// Needed in setup, private key of your address
-		'blockchain-addr' => 'https://blockchain.info/en/address/',
-		'blockchain-tx' => 'https://blockchain.info/en/tx/'
+		'blockchain-addr' => 'http://blockexperts.com/vta/height/',
+		'blockchain-tx' => 'http://blockexperts.com/vta/tx/'
 	);
 ?>
